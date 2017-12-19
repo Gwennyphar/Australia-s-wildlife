@@ -1,0 +1,97 @@
+
+		body{
+				font-size:100%;
+				font-family:verdana, arial, helvetica, sans-serif;
+				background-color:#E5D3B2;
+				margin:0;
+				padding:0;
+				text-align:center; /* nur für/bis IE5 wichtig */
+				color:#000033; /* Kurzschreibweise für Farbe: 003 */
+			}
+		#container
+		{
+			background-color:#F8F0E3;
+			background-image:url(./bilder/hg_container.jpg);
+			width:50em;
+			border:1px solid #9900000;
+			text-align:left;
+			margin: 0 auto 0 auto; /* Abstandsdefiniton oben,
+										* rechts, unten, links */
+		}
+		#kopf
+		{
+			background-color:#F8F0E3;
+			background-image:url(./bilder/hg_head.jpg);
+			height:50px;
+			padding:0 10px; /* Kurzschreibung: oben=unten=0 rechts=links=10px */
+			margin:0;
+		}
+		#kopf h1
+		{
+			padding:0;
+			margin:10px 0;
+		}
+		#seitenleiste
+		{
+			width:10em; /* Abstand Sidebar Text */
+			//background-color:#EADBB0;
+			float:left; /* Element fliessen nebeneinander */
+			padding:15px 0;
+		}
+		#seitenleiste h3
+		{
+			font-family:courier, monospace;
+			color:#00300;
+			margin-left:10px /* Außenabstand umliegender Elemente */
+			margin-right:10px
+		}
+		#seitenleiste ul
+		{
+			list-style:none;
+		}
+		#seitenleiste li
+		{
+			padding:0; /* Innenabstand von Rand zu Inhalt div  */
+			margin:0;
+		}
+		#seitenleiste a
+		{
+			background-color:#CF952A;
+			border: 2px solid #FFFFFF;
+			font-size:112pt;
+			margin:0 10px 0 0;
+			padding:7px;
+			text-align:center;
+			text-decoration:none;
+			color:#FFFFFF;
+			display:block; /* Anzeigeart, hier wird eine  */
+			width:6em; /* Button Groesse */
+			margin:5px; /* Absatz */
+			padding:8px;
+			text-decoration:none; /*Auszeichnung von Text/Links, ausgeschaltet*/
+			color:#FFFFFF;
+			/* HG-Farbe und Anker als Block */
+			font-size:14pt;
+		}
+		#seitenleiste a:hover
+		{
+			text-decoration:underline;
+			color:#FFFFFF;
+		}
+		#inhalt
+		{
+			width: 35em;
+			margin:0 1.5em 0 13em;
+		}
+		#fuss
+		{
+			padding:0 0.6em;
+			background-color:#DDD;
+			margin-top:0;
+			width:48.8em
+		}
+		#fuss p
+		{
+			margin:0px;
+			padding:10px 0;
+		}
